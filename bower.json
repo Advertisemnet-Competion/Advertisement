@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "authors": [
+    "shufenHou <2485408442@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.2",
+    "bootstrap": "3.3.7"
+  }
+}
