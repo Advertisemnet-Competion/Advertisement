@@ -1,0 +1,203 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html{
+  width: 100%;
+  height: 100%;
+  body{
+    width: 100%;
+    height: 100%;
+    .carousel-inner{
+      position: relative;
+      .item{
+        >img{
+          width: 100%;
+          height: 400px;
+        }
+        .row{
+          position: absolute;
+          top: 40%;
+          left: 40%;
+          .slider-text{
+            >h1{
+              font-size: 2.5em;
+              font-weight: 400;
+              font-family: "Josefin Slab", Arial, serif;
+            }
+          }
+
+        }
+      }
+    }
+    a{
+      color: inherit;
+      text-decoration: none !important;
+    }
+    .full-section{
+      margin-top: 3%;
+      width: 100%;
+      padding-bottom: 50px;
+      background-image: url(../img/bd_work_bg01.jpg) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      .section-title{
+        color: #fff;
+        font-size: 2.5rem;
+        line-height: 1;
+        padding-bottom: 2.5rem;
+        padding-top: 5rem;
+        //color: #969696;
+        letter-spacing: 0;
+        text-align: center;
+        border-bottom: 1px #E8E8E9 solid;
+      }
+      .card-wrap{
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+        font-size: 16px;
+        color: #fff;
+        line-height: 16px;
+        text-align: center;
+        background-color: transparent;
+        &:hover{
+          color: #000;
+          .card-title{
+            background: #f8f8f8;
+            outline: 1px solid #d6d6d6;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.50);
+
+            span.bottom-line{
+              display: block;
+              //border-radius: 6px;
+              animation: stretch 1s;
+              -webkit-animation: stretch 0.5s;
+              -webkit-animation: stretch 0.5s;
+              -moz-animation: stretch 0.5s;
+              -o-animation: stretch 0.5s;
+              animation-fill-mode: forwards;
+              margin: 0 auto;
+              margin-top: 14px;
+              border-bottom: 4px #000000 solid;
+              border-radius: 6px;
+            }
+          }
+
+        }
+        .card-title{
+          padding: 15px 0;
+          span{
+            display: inline-block;
+          }
+          span.bottom-line{
+            display: block;
+            width: 30px;
+            margin: 0 auto;
+            margin-top: 14px;
+            border-bottom: 4px #fff solid;
+            border-radius: 6px;
+          }
+        }
+        .card-content{
+          //background-image: url("../img/01.jpg");
+          /*&:nth-of-type(1){
+            background-image: url("../img/01.jpg");
+          }
+          &:nth-of-type(2){
+            background-image: url("../img/02.jpg");
+          }
+          &:nth-of-type(3){
+             background-image: url("../img/03.jpg");
+           }*/
+          background-repeat: no-repeat;
+          height: 16em;
+          .card-cover{
+            display: none;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.30);
+            display: table;
+            .card-slogan{
+              width: 100%;
+              font-size: 17px;
+              line-height: 28px;
+              color: #ffffff;
+              display: table-cell;
+              vertical-align: middle;
+              p{
+                margin: 0px 0px 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer{
+      width: 100%;
+      overflow: hidden;
+      border-top: 1px #E8E8E9 solid;
+      .bottom-share{
+        font-size: 16px;
+        color: #666666;
+        letter-spacing: 0;
+        line-height: 6rem;
+        text-align: left;
+        /* height: 67px; */
+        border-bottom: 1px #E8E8E9 solid;
+        .share-wechat {
+          display: inline-block;
+          height: auto;
+          position: relative;
+          margin-right: 0.5rem;
+          cursor: pointer;
+          flex: 1;
+          img {
+            margin-right: 0.5rem;
+          }
+          img.share-wechat-img {
+            margin-right: 0rem;
+          }
+        }
+      }
+      .bd-bottom-moremsg {
+        margin-right: 10%;
+        display: inline-block;
+        vertical-align: top;
+        .bd-more-msg, .bd-com-teamwork {
+          font-size: 20px;
+          color: #666666;
+          letter-spacing: 0;
+          line-height: 60px;
+          text-align: left;
+        }
+        a {
+          display: block;
+          font-size: 16px;
+          color: #999999;
+          letter-spacing: 0;
+          line-height: 25px;
+          text-align: left;
+        }
+
+      }
+      .bd-bottom-icp {
+        font-size: 14px;
+        color: #666666;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@keyframes stretch {
+  from{
+    width: 30px;
+  }
+  to{
+    width: 100%;
+  }
+}

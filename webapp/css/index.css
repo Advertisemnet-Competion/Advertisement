@@ -1,3 +1,163 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+html {
+  width: 100%;
+  height: 100%; }
+  html body {
+    width: 100%;
+    height: 100%; }
+    html body .carousel-inner {
+      position: relative; }
+      html body .carousel-inner .item > img {
+        width: 100%;
+        height: 400px; }
+      html body .carousel-inner .item .row {
+        position: absolute;
+        top: 40%;
+        left: 40%; }
+        html body .carousel-inner .item .row .slider-text > h1 {
+          font-size: 2.5em;
+          font-weight: 400;
+          font-family: "Josefin Slab", Arial, serif; }
+    html body a {
+      color: inherit;
+      text-decoration: none !important; }
+    html body .full-section {
+      margin-top: 3%;
+      width: 100%;
+      padding-bottom: 50px;
+      background-image: url(../img/bd_work_bg01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden; }
+      html body .full-section .section-title {
+        color: #fff;
+        font-size: 2.5rem;
+        line-height: 1;
+        padding-bottom: 2.5rem;
+        padding-top: 5rem;
+        letter-spacing: 0;
+        text-align: center;
+        border-bottom: 1px #E8E8E9 solid; }
+      html body .full-section .card-wrap {
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+        font-size: 16px;
+        color: #fff;
+        line-height: 16px;
+        text-align: center;
+        background-color: transparent; }
+        html body .full-section .card-wrap:hover {
+          color: #000; }
+          html body .full-section .card-wrap:hover .card-title {
+            background: #f8f8f8;
+            outline: 1px solid #d6d6d6;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.5); }
+            html body .full-section .card-wrap:hover .card-title span.bottom-line {
+              display: block;
+              animation: stretch 1s;
+              -webkit-animation: stretch 0.5s;
+              -webkit-animation: stretch 0.5s;
+              -moz-animation: stretch 0.5s;
+              -o-animation: stretch 0.5s;
+              animation-fill-mode: forwards;
+              margin: 0 auto;
+              margin-top: 14px;
+              border-bottom: 4px #000000 solid;
+              border-radius: 6px; }
+        html body .full-section .card-wrap .card-title {
+          padding: 15px 0; }
+          html body .full-section .card-wrap .card-title span {
+            display: inline-block; }
+          html body .full-section .card-wrap .card-title span.bottom-line {
+            display: block;
+            width: 30px;
+            margin: 0 auto;
+            margin-top: 14px;
+            border-bottom: 4px #fff solid;
+            border-radius: 6px; }
+        html body .full-section .card-wrap .card-content {
+          /*&:nth-of-type(1){
+            background-image: url("../img/01.jpg");
+          }
+          &:nth-of-type(2){
+            background-image: url("../img/02.jpg");
+          }
+          &:nth-of-type(3){
+             background-image: url("../img/03.jpg");
+           }*/
+          background-repeat: no-repeat;
+          height: 16em; }
+          html body .full-section .card-wrap .card-content .card-cover {
+            display: none;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            display: table; }
+            html body .full-section .card-wrap .card-content .card-cover .card-slogan {
+              width: 100%;
+              font-size: 17px;
+              line-height: 28px;
+              color: #ffffff;
+              display: table-cell;
+              vertical-align: middle; }
+              html body .full-section .card-wrap .card-content .card-cover .card-slogan p {
+                margin: 0px 0px 10px; }
+    html body .footer {
+      width: 100%;
+      overflow: hidden;
+      border-top: 1px #E8E8E9 solid; }
+      html body .footer .bottom-share {
+        font-size: 16px;
+        color: #666666;
+        letter-spacing: 0;
+        line-height: 6rem;
+        text-align: left;
+        /* height: 67px; */
+        border-bottom: 1px #E8E8E9 solid; }
+        html body .footer .bottom-share .share-wechat {
+          display: inline-block;
+          height: auto;
+          position: relative;
+          margin-right: 0.5rem;
+          cursor: pointer;
+          flex: 1; }
+          html body .footer .bottom-share .share-wechat img {
+            margin-right: 0.5rem; }
+          html body .footer .bottom-share .share-wechat img.share-wechat-img {
+            margin-right: 0rem; }
+      html body .footer .bd-bottom-moremsg {
+        margin-right: 10%;
+        display: inline-block;
+        vertical-align: top; }
+        html body .footer .bd-bottom-moremsg .bd-more-msg, html body .footer .bd-bottom-moremsg .bd-com-teamwork {
+          font-size: 20px;
+          color: #666666;
+          letter-spacing: 0;
+          line-height: 60px;
+          text-align: left; }
+        html body .footer .bd-bottom-moremsg a {
+          display: block;
+          font-size: 16px;
+          color: #999999;
+          letter-spacing: 0;
+          line-height: 25px;
+          text-align: left; }
+      html body .footer .bd-bottom-icp {
+        font-size: 14px;
+        color: #666666;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px; }
+
+@keyframes stretch {
+  from {
+    width: 30px; }
+  to {
+    width: 100%; } }
 
 /*# sourceMappingURL=index.css.map */
