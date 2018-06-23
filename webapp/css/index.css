@@ -1,32 +1,29 @@
-html{
+html {
   width: 100%;
-  height: 100%;
-  body{
+  height: 100%; }
+  html body {
     width: 100%;
-    height: 100%;
-    a{
+    height: 100%; }
+    html body a {
       color: inherit;
-      text-decoration: none !important;
-    }
-    .full-section{
+      text-decoration: none !important; }
+    html body .full-section {
       width: 100%;
       padding-bottom: 50px;
-      background-image: url(../img/bd_work_bg01.jpg) ;
+      background-image: url(../img/bd_work_bg01.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      overflow: hidden;
-      .section-title{
+      overflow: hidden; }
+      html body .full-section .section-title {
         color: #fff;
         font-size: 2.5rem;
         line-height: 1;
         padding-bottom: 2.5rem;
         padding-top: 5rem;
-        //color: #969696;
         letter-spacing: 0;
         text-align: center;
-        border-bottom: 1px #E8E8E9 solid;
-      }
-      .card-wrap{
+        border-bottom: 1px #E8E8E9 solid; }
+      html body .full-section .card-wrap {
         cursor: pointer;
         border: none;
         border-radius: 0;
@@ -34,17 +31,15 @@ html{
         color: #fff;
         line-height: 16px;
         text-align: center;
-        background-color: transparent;
-        &:hover{
-          color: #000;
-          .card-title{
+        background-color: transparent; }
+        html body .full-section .card-wrap:hover {
+          color: #000; }
+          html body .full-section .card-wrap:hover .card-title {
             background: #f8f8f8;
             outline: 1px solid #d6d6d6;
-            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.50);
-
-            span.bottom-line{
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.5); }
+            html body .full-section .card-wrap:hover .card-title span.bottom-line {
               display: block;
-              //border-radius: 6px;
               animation: stretch 1s;
               -webkit-animation: stretch 0.5s;
               -webkit-animation: stretch 0.5s;
@@ -54,27 +49,19 @@ html{
               margin: 0 auto;
               margin-top: 14px;
               border-bottom: 4px #000000 solid;
-              border-radius: 6px;
-            }
-          }
-
-        }
-        .card-title{
-          padding: 15px 0;
-          span{
-            display: inline-block;
-          }
-          span.bottom-line{
+              border-radius: 6px; }
+        html body .full-section .card-wrap .card-title {
+          padding: 15px 0; }
+          html body .full-section .card-wrap .card-title span {
+            display: inline-block; }
+          html body .full-section .card-wrap .card-title span.bottom-line {
             display: block;
             width: 30px;
             margin: 0 auto;
             margin-top: 14px;
             border-bottom: 4px #fff solid;
-            border-radius: 6px;
-          }
-        }
-        .card-content{
-          //background-image: url("../img/01.jpg");
+            border-radius: 6px; }
+        html body .full-section .card-wrap .card-content {
           /*&:nth-of-type(1){
             background-image: url("../img/01.jpg");
           }
@@ -85,92 +72,74 @@ html{
              background-image: url("../img/03.jpg");
            }*/
           background-repeat: no-repeat;
-          height: 16em;
-          .card-cover{
+          height: 16em; }
+          html body .full-section .card-wrap .card-content .card-cover {
             display: none;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.30);
-            display: table;
-            .card-slogan{
+            background: rgba(0, 0, 0, 0.3);
+            display: table; }
+            html body .full-section .card-wrap .card-content .card-cover .card-slogan {
               width: 100%;
               font-size: 17px;
               line-height: 28px;
               color: #ffffff;
               display: table-cell;
-              vertical-align: middle;
-              p{
-                margin: 0px 0px 10px;
-              }
-            }
-          }
-        }
-      }
-    }
-    .footer{
+              vertical-align: middle; }
+              html body .full-section .card-wrap .card-content .card-cover .card-slogan p {
+                margin: 0px 0px 10px; }
+    html body .footer {
       width: 100%;
       overflow: hidden;
-      border-top: 1px #E8E8E9 solid;
-      .bottom-share{
+      border-top: 1px #E8E8E9 solid; }
+      html body .footer .bottom-share {
         font-size: 16px;
         color: #666666;
         letter-spacing: 0;
         line-height: 6rem;
         text-align: left;
         /* height: 67px; */
-        border-bottom: 1px #E8E8E9 solid;
-        .share-wechat {
+        border-bottom: 1px #E8E8E9 solid; }
+        html body .footer .bottom-share .share-wechat {
           display: inline-block;
           height: auto;
           position: relative;
           margin-right: 0.5rem;
           cursor: pointer;
-          flex: 1;
-          img {
-            margin-right: 0.5rem;
-          }
-          img.share-wechat-img {
-            margin-right: 0rem;
-          }
-        }
-      }
-      .bd-bottom-moremsg {
+          flex: 1; }
+          html body .footer .bottom-share .share-wechat img {
+            margin-right: 0.5rem; }
+          html body .footer .bottom-share .share-wechat img.share-wechat-img {
+            margin-right: 0rem; }
+      html body .footer .bd-bottom-moremsg {
         margin-right: 10%;
         display: inline-block;
-        vertical-align: top;
-        .bd-more-msg, .bd-com-teamwork {
+        vertical-align: top; }
+        html body .footer .bd-bottom-moremsg .bd-more-msg, html body .footer .bd-bottom-moremsg .bd-com-teamwork {
           font-size: 20px;
           color: #666666;
           letter-spacing: 0;
           line-height: 60px;
-          text-align: left;
-        }
-        a {
+          text-align: left; }
+        html body .footer .bd-bottom-moremsg a {
           display: block;
           font-size: 16px;
           color: #999999;
           letter-spacing: 0;
           line-height: 25px;
-          text-align: left;
-        }
-
-      }
-      .bd-bottom-icp {
+          text-align: left; }
+      html body .footer .bd-bottom-icp {
         font-size: 14px;
         color: #666666;
         line-height: 14px;
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 20px;
-      }
-    }
-  }
-}
+        margin-bottom: 20px; }
+
 @keyframes stretch {
-  from{
-    width: 30px;
-  }
-  to{
-    width: 100%;
-  }
-}
+  from {
+    width: 30px; }
+  to {
+    width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */
