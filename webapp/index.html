@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>home</title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-
+    <div class="page">
+        <div class="home">
+            <!--内容部分-->
+            <div class="content">
+                <div class="container">
+                    <!--轮播图部分-->
+                    <div class="row">
+                        <div id="myCarousel" class="carousel slide">
+                            <!-- 轮播（Carousel）指标 -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- 轮播（Carousel）项目 -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/banner1.jpg" alt="First slide">
+                                    <div class="row animated fadeInUpBig">
+                                        <div class="slider-text">
+                                            <h1>The smallest act of kindness is worth more than the grandest intention.</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/banner2.jpg" alt="Second slide">
+                                    <div class="row animated fadeInUpBig">
+                                        <div class="slider-text">
+                                            <h1>A little bit of mercy makes the world less cold and more just.</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/banner3.jpg" alt="Third slide">
+                                    <div class="row animated fadeInUpBig">
+                                        <div class="slider-text">
+                                            <h1>Kindness is the language that the deaf can hear and the blind can see.</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--轮播结束-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--js-->
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
