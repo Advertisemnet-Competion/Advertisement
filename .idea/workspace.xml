@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b593b14-32f5-466a-8c8e-5883849d3c3e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/css/society.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/js/society.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/society.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/advertisement.iml" afterPath="$PROJECT_DIR$/.idea/advertisement.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/society-9.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/society.scss" afterPath="$PROJECT_DIR$/webapp/css/society.scss" />
+      <change beforePath="$PROJECT_DIR$/webapp/society.html" afterPath="$PROJECT_DIR$/webapp/society.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,41 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="family.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/family.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2133">
-              <caret line="198" column="30" lean-forward="false" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
-              <folding>
-                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="family.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/css/family.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="society.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/society.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1543">
-              <caret line="226" column="57" lean-forward="false" selection-start-line="226" selection-start-column="57" selection-end-line="226" selection-end-column="57" />
+            <state relative-caret-position="243">
+              <caret line="131" column="56" lean-forward="true" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -64,8 +48,8 @@
       <file leaf-file-name="society.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/css/society.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="351">
+              <caret line="217" column="54" lean-forward="false" selection-start-line="217" selection-start-column="54" selection-end-line="217" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -128,9 +112,9 @@
         <option value="$PROJECT_DIR$/webapp/css/family.scss" />
         <option value="$PROJECT_DIR$/webapp/family.html" />
         <option value="E:/前端/前端/HTML/BaiduHome/css/index.css" />
+        <option value="$PROJECT_DIR$/webapp/js/society.js" />
         <option value="$PROJECT_DIR$/webapp/css/society.scss" />
         <option value="$PROJECT_DIR$/webapp/society.html" />
-        <option value="$PROJECT_DIR$/webapp/js/society.js" />
       </list>
     </option>
   </component>
@@ -185,7 +169,7 @@
               <item name="advertisement" type="47feb1d3:ProjectViewModuleNode" />
               <item name="advertisement" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advertisement" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.family.html">
     <configuration name="Tool.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/advertisement/Tool.html" />
     <configuration name="family.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/advertisement/webapp/family.html" />
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/advertisement/index.html" />
@@ -249,9 +233,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.society.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.family.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.family.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.society.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Tool.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -271,7 +255,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529717415512</updated>
       <workItem from="1529717418940" duration="37453000" />
-      <workItem from="1529802560822" duration="14606000" />
+      <workItem from="1529802560822" duration="24532000" />
     </task>
     <task id="LOCAL-00001" summary="导航栏">
       <created>1529732397108</created>
@@ -287,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529806180299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="社会友善">
+      <created>1529823115457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529823115457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52059000" />
+    <option name="totallyTimeSpent" value="61985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,7 +338,8 @@
     <MESSAGE value="导航栏" />
     <MESSAGE value="首页整合" />
     <MESSAGE value="亲友友善" />
-    <option name="LAST_COMMIT_MESSAGE" value="亲友友善" />
+    <MESSAGE value="社会友善" />
+    <option name="LAST_COMMIT_MESSAGE" value="社会友善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/css/family.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/css/society.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -655,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/family.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="198" column="30" lean-forward="false" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -669,20 +653,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/css/family.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/css/society.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="351">
+          <caret line="217" column="54" lean-forward="false" selection-start-line="217" selection-start-column="54" selection-end-line="217" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/society.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1543">
-          <caret line="226" column="57" lean-forward="false" selection-start-line="226" selection-start-column="57" selection-end-line="226" selection-end-column="57" />
+        <state relative-caret-position="243">
+          <caret line="131" column="56" lean-forward="true" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
