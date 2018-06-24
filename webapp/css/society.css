@@ -40,28 +40,35 @@
   .page .dynamic .news-items .current .decoration .news-circle .solid-circle {
     background-color: #008fff; }
   .page .dynamic .news-item {
-    width: 100%; }
-    .page .dynamic .news-item .news-box .news-title {
-      display: block;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      text-decoration: none;
-      color: #000000;
-      padding-top: 1em;
-      padding-right: 10em; }
+    float: left;
+    width: 100%;
+    height: 70px; }
+    .page .dynamic .news-item .news-box {
+      float: right; }
+      .page .dynamic .news-item .news-box .news-title {
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-decoration: none;
+        color: #000000;
+        padding-top: 1em;
+        padding-right: 10em; }
     .page .dynamic .news-item .decoration {
+      float: left;
       display: table-cell;
+      top: 50%;
       width: 10%;
       vertical-align: middle;
       text-align: center;
-      position: relative; }
+      position: relative;
+      height: 100%; }
       .page .dynamic .news-item .decoration :before {
         top: 0; }
       .page .dynamic .news-item .decoration :after, .page .dynamic .news-item .decoration :before {
         content: "";
         display: block;
         width: 1px;
-        height: 50%;
+        height: 72%;
         background: #ccc;
         position: absolute;
         left: 0;
