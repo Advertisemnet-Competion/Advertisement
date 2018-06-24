@@ -1,6 +1,4 @@
 $(function () {
-
-
     $(".card-wrap").hover(
         function (event) {
             var event=window.event||event;

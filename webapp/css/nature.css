@@ -33,13 +33,15 @@ html {
         html body .animals-pic .row:nth-of-type(2n+1) .pic-contain {
           left: -8%; }
           html body .animals-pic .row:nth-of-type(2n+1) .pic-contain .box {
-            margin-right: 5px; }
+            margin-right: 5px;
+            float: left; }
         html body .animals-pic .row:nth-of-type(2n+1) .pic-brief {
           right: 0; }
         html body .animals-pic .row:nth-of-type(2n) .pic-contain {
           right: -8%; }
           html body .animals-pic .row:nth-of-type(2n) .pic-contain .box {
-            margin-left: 5px; }
+            margin-left: 5px;
+            float: right; }
         html body .animals-pic .row:nth-of-type(2n) .pic-brief {
           left: 0; }
       html body .animals-pic .pic-contain {
