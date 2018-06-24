@@ -2,34 +2,42 @@
   margin: 0;
   padding: 0; }
 
-.page .intro-box .intro-left > img {
-  width: 100%;
-  height: 400px; }
-.page .intro-box .intro-right {
-  width: 100%;
-  height: 400px;
-  background-color: #f7f7f7; }
-  .page .intro-box .intro-right .wrap-title {
-    text-align: center;
-    margin-bottom: 3%; }
-  .page .intro-box .intro-right .wrap-text .wrap-inner-text {
+.page .intro-box {
+  opacity: 0;
+  position: relative;
+  bottom: -2%; }
+  .page .intro-box .intro-left > img {
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-    line-height: 2em; }
-    .page .intro-box .intro-right .wrap-text .wrap-inner-text span {
-      color: #808080;
-      letter-spacing: 2px;
-      font-size: 1.0em; }
-.page .story-box .row {
-  margin-bottom: 3%; }
-  .page .story-box .row .title {
-    text-align: center;
-    padding-bottom: 2em;
-    padding-top: 5em;
-    border-bottom: 1px #E8E8E9 solid; }
-    .page .story-box .row .title h2 {
-      color: #FF0000; }
+    height: 400px; }
+  .page .intro-box .intro-right {
+    width: 100%;
+    height: 400px;
+    background-color: #f7f7f7; }
+    .page .intro-box .intro-right .wrap-title {
+      text-align: center;
+      margin-bottom: 3%; }
+    .page .intro-box .intro-right .wrap-text .wrap-inner-text {
+      width: 100%;
+      padding-left: 15%;
+      padding-right: 15%;
+      line-height: 2em; }
+      .page .intro-box .intro-right .wrap-text .wrap-inner-text span {
+        color: #808080;
+        letter-spacing: 2px;
+        font-size: 1.0em; }
+.page .story-box {
+  opacity: 0;
+  position: relative;
+  bottom: -2%; }
+  .page .story-box .row {
+    margin-bottom: 3%; }
+    .page .story-box .row .title {
+      text-align: center;
+      padding-bottom: 2em;
+      padding-top: 5em;
+      border-bottom: 1px #E8E8E9 solid; }
+      .page .story-box .row .title h2 {
+        color: #FF0000; }
 .page .history-box .row .list .list-item, .page .now-box .row .list .list-item {
   cursor: pointer; }
   .page .history-box .row .list .list-item :hover, .page .now-box .row .list .list-item :hover {

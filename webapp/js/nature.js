@@ -29,9 +29,7 @@ $(function () {
         },2000);
     }*/
     var boxH=$(".animals-pic .row")[0].offsetHeight;
-    // var bannerH=$(".banner")[0].offsetHeight;
 
-    var scrollH2=0;
     var k=0;
     window.onscroll=function () {
         console.log($(".banner")[0].offsetHeight);
