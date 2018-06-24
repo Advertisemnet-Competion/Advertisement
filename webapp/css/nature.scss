@@ -92,9 +92,16 @@ html{
 
       .banner-big{
         width: 20em;
+          >h1{
+            font-size:2.3em;
+            color: #F5F5F5;
+          }
       }
       .banner-middle{
         width: 20em;
+        >h4{
+          color:#EEEEE0;
+        }
       }
     }
   }
