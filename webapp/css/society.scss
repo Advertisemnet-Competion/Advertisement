@@ -58,8 +58,11 @@
       }
     }
     .news-item{
+      float: left;
       width: 100%;
+      height: 70px;
       .news-box{
+        float: right;
         .news-title{
           display: block;
           white-space: nowrap;
@@ -70,13 +73,16 @@
           padding-right: 10em;
         }
       }
-
       .decoration{
+        float: left;
         display: table-cell;
+        top: 50%;
+        //display: table;
         width: 10%;
         vertical-align: middle;
         text-align: center;
         position: relative;
+        height: 100%;
         :before{
           top: 0;
         }
@@ -84,7 +90,7 @@
           content: "";
           display: block;
           width: 1px;
-          height: 50%;
+          height: 72%;
           background: #ccc;
           position: absolute;
           left: 0;
@@ -92,6 +98,7 @@
           margin: auto;
           z-index: -1;
         }
+
         .news-circle{
           display: inline-block;
           border-radius: 50%;
@@ -114,7 +121,7 @@
         color: #000;
         padding-left: 2em;
         border-radius: 2px;
-        line-height: 2em
+        line-height: 2em;
       }
     }
     .topic-title,.news-dynaminc{
