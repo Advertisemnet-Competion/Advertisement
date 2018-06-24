@@ -4,6 +4,9 @@
 }
 .page{
   .society-info{
+    opacity: 0;
+    position: relative;
+    top: -2%;
     .row{
       margin-top: 3%;
       .title{
@@ -37,6 +40,9 @@
     }
   }
   .dynamic{
+    opacity: 0;
+    position: relative;
+    top: -2%;
     .text-center{
       padding-bottom: 2em;
       padding-top: 5em;
@@ -145,6 +151,9 @@
     }
   }
   .photos{
+    opacity: 0;
+    position: relative;
+    top: -2%;
     .title{
       text-align: center;
       h2{

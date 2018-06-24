@@ -4,6 +4,9 @@
 }
 .page{
   .intro-box{
+    opacity: 0;
+    position: relative;
+    bottom: -2%;
     .intro-left{
       >img{
         width: 100%;
@@ -34,6 +37,9 @@
     }
   }
   .story-box{
+    opacity: 0;
+    position: relative;
+    bottom: -2%;
     .row{
       margin-bottom: 3%;
       .title{

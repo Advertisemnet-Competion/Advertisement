@@ -1,0 +1,162 @@
+html{
+  width: 100%;
+  height: 100%;
+
+  body{
+    width: 100%;
+    height: 100%;
+    .animals-pic{
+      width: 100%;
+      overflow: hidden;
+      margin-top: 10px;
+      .row{
+        margin-bottom: 10px;
+        position: relative;
+        height: 14em;
+        .pic-brief{
+          height: 100%;
+          display: table;
+          position: absolute;
+          top:-10%;
+          opacity: 0;
+          .brief-content{
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 17px;
+            line-height: 28px;
+            color: #999;
+            cursor: pointer;
+          }
+          &:hover{
+            background-color: #03afdd;
+            .brief-content{
+              color: #fff;
+            }
+          }
+        }
+        &:nth-of-type(2n+1){
+          .pic-contain{
+            left: -8%;
+            .box{
+              margin-right: 5px;
+              float: left;
+            }
+          }
+          .pic-brief{
+            right: 0;
+          }
+        }
+        &:nth-of-type(2n){
+          .pic-contain{
+            right: -8%;
+            .box{
+              margin-left: 5px;
+              float: right;
+            }
+          }
+          .pic-brief{
+            left: 0;
+          }
+        }
+      }
+      .pic-contain{
+        width: 100%;
+        position: absolute;
+        height: 14em;
+        opacity:0;
+      }
+      .box{
+        height: 14em;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+    }
+    .banner{
+      width:100%;
+      height: 100%;
+      top: 0;
+
+      .container{
+        height: 100%;
+        display: table;
+
+      }
+      .words{
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .banner-big{
+        width: 20em;
+      }
+      .banner-middle{
+        width: 20em;
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px #E8E8E9 solid;
+    .bottom-share{
+      font-size: 16px;
+      color: #666666;
+      letter-spacing: 0;
+      line-height: 6rem;
+      text-align: left;
+      /* height: 67px; */
+      border-bottom: 1px #E8E8E9 solid;
+      .share-wechat {
+        display: inline-block;
+        height: auto;
+        position: relative;
+        margin-right: 0.5rem;
+        cursor: pointer;
+        flex: 1;
+        img {
+          margin-right: 0.5rem;
+        }
+        img.share-wechat-img {
+          margin-right: 0rem;
+        }
+      }
+    }
+    .bd-bottom-moremsg {
+      margin-right: 10%;
+      display: inline-block;
+      vertical-align: top;
+      .bd-more-msg, .bd-com-teamwork {
+        font-size: 20px;
+        color: #666666;
+        letter-spacing: 0;
+        line-height: 60px;
+        text-align: left;
+      }
+      a {
+        display: block;
+        font-size: 16px;
+        color: #999999;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: left;
+      }
+
+    }
+    .bd-bottom-icp {
+      font-size: 14px;
+      color: #666666;
+      line-height: 14px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
