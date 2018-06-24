@@ -35,7 +35,7 @@
           padding-top: 2%;
           h1{
             font-family: "TrumpGothicEastBold", Arial, Helvetica, sans-serif;
-            font-size: 16px;
+            font-size: 1.4em;
             line-height: 30px;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -53,18 +53,18 @@
         >div:nth-child(1){
           transform: rotateX(90deg) translateZ(25px);
           color: #FFFFFF;
-          background-color: #35465b;
+          background-color: #c40000;
         }
         >div:nth-child(2){
           transform: rotateX(0deg) translateZ(25px);
           color: #FFFFFF;
-          background-color: #ee3d3e;
+          background-color: #2b2b2b;
         }
       }
       .menu-current{
         >div:nth-child(2){
           color: #FFFFFF;
-          background-color:#35465b;
+          background-color:#c40000;
         }
       }
     }
