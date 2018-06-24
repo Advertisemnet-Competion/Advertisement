@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b593b14-32f5-466a-8c8e-5883849d3c3e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/banner6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/index-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/index-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/index-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/index-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/img/index-8.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/index.css" afterPath="$PROJECT_DIR$/webapp/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/index.css.map" afterPath="$PROJECT_DIR$/webapp/css/index.css.map" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/index.scss" afterPath="$PROJECT_DIR$/webapp/css/index.scss" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/nav.css" afterPath="$PROJECT_DIR$/webapp/css/nav.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/nav.css.map" afterPath="$PROJECT_DIR$/webapp/css/nav.css.map" />
-      <change beforePath="$PROJECT_DIR$/webapp/css/nav.scss" afterPath="$PROJECT_DIR$/webapp/css/nav.scss" />
+      <change beforePath="$PROJECT_DIR$/webapp/css/society.css.map" afterPath="$PROJECT_DIR$/webapp/css/society.css.map" />
       <change beforePath="$PROJECT_DIR$/webapp/index.html" afterPath="$PROJECT_DIR$/webapp/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/nav.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -48,10 +45,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="76" column="94" lean-forward="false" selection-start-line="76" selection-start-column="94" selection-end-line="76" selection-end-column="100" />
+            <state relative-caret-position="189">
+              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -63,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/webapp/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -168,13 +166,6 @@
             <path>
               <item name="advertisement" type="b2602c69:ProjectViewProjectNode" />
               <item name="advertisement" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="advertisement" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advertisement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advertisement" type="47feb1d3:ProjectViewModuleNode" />
               <item name="BaiduHome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,15 +206,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/css/nature.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/css/nature.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/css/nature.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/family.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/js/nav.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/js/nature.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/nature.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/nav.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/society.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -231,7 +215,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/sea.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-10.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/animal-9.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -239,6 +232,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/北极熊.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/webapp/img/哈士奇.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -369,7 +364,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529717415512</updated>
       <workItem from="1529717418940" duration="37453000" />
-      <workItem from="1529802560822" duration="36688000" />
+      <workItem from="1529802560822" duration="38257000" />
     </task>
     <task id="LOCAL-00001" summary="导航栏">
       <created>1529732397108</created>
@@ -406,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529843506353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" 主页面三善内容补充">
+      <created>1529847536199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529847536251</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74141000" />
+    <option name="totallyTimeSpent" value="75710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -469,7 +471,8 @@
     <MESSAGE value="社会友善" />
     <MESSAGE value="family内容填充" />
     <MESSAGE value="society图片正常显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="society图片正常显示" />
+    <MESSAGE value=" 主页面三善内容补充" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 主页面三善内容补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -794,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/webapp/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -802,17 +805,18 @@
     <entry file="file://$PROJECT_DIR$/webapp/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="76" column="94" lean-forward="false" selection-start-line="76" selection-start-column="94" selection-end-line="76" selection-end-column="100" />
+        <state relative-caret-position="189">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
