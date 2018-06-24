@@ -1,0 +1,122 @@
+html {
+  width: 100%;
+  height: 100%; }
+  html body {
+    width: 100%;
+    height: 100%; }
+    html body .animals-pic {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 10px; }
+      html body .animals-pic .row {
+        margin-bottom: 10px;
+        position: relative;
+        height: 14em; }
+        html body .animals-pic .row .pic-brief {
+          height: 100%;
+          display: table;
+          position: absolute;
+          top: -10%;
+          opacity: 0; }
+          html body .animals-pic .row .pic-brief .brief-content {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 17px;
+            line-height: 28px;
+            color: #999;
+            cursor: pointer; }
+          html body .animals-pic .row .pic-brief:hover {
+            background-color: #03afdd; }
+            html body .animals-pic .row .pic-brief:hover .brief-content {
+              color: #fff; }
+        html body .animals-pic .row:nth-of-type(2n+1) .pic-contain {
+          left: -8%; }
+          html body .animals-pic .row:nth-of-type(2n+1) .pic-contain .box {
+            margin-right: 5px; }
+        html body .animals-pic .row:nth-of-type(2n+1) .pic-brief {
+          right: 0; }
+        html body .animals-pic .row:nth-of-type(2n) .pic-contain {
+          right: -8%; }
+          html body .animals-pic .row:nth-of-type(2n) .pic-contain .box {
+            margin-left: 5px; }
+        html body .animals-pic .row:nth-of-type(2n) .pic-brief {
+          left: 0; }
+      html body .animals-pic .pic-contain {
+        width: 100%;
+        position: absolute;
+        height: 14em;
+        opacity: 0; }
+      html body .animals-pic .box {
+        height: 14em;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    html body .banner {
+      width: 100%;
+      height: 100%;
+      top: 0; }
+      html body .banner .container {
+        height: 100%;
+        display: table; }
+      html body .banner .words {
+        display: table-cell;
+        vertical-align: middle; }
+      html body .banner .banner-big {
+        width: 20em; }
+      html body .banner .banner-middle {
+        width: 20em; }
+  html .footer {
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px #E8E8E9 solid; }
+    html .footer .bottom-share {
+      font-size: 16px;
+      color: #666666;
+      letter-spacing: 0;
+      line-height: 6rem;
+      text-align: left;
+      /* height: 67px; */
+      border-bottom: 1px #E8E8E9 solid; }
+      html .footer .bottom-share .share-wechat {
+        display: inline-block;
+        height: auto;
+        position: relative;
+        margin-right: 0.5rem;
+        cursor: pointer;
+        flex: 1; }
+        html .footer .bottom-share .share-wechat img {
+          margin-right: 0.5rem; }
+        html .footer .bottom-share .share-wechat img.share-wechat-img {
+          margin-right: 0rem; }
+    html .footer .bd-bottom-moremsg {
+      margin-right: 10%;
+      display: inline-block;
+      vertical-align: top; }
+      html .footer .bd-bottom-moremsg .bd-more-msg, html .footer .bd-bottom-moremsg .bd-com-teamwork {
+        font-size: 20px;
+        color: #666666;
+        letter-spacing: 0;
+        line-height: 60px;
+        text-align: left; }
+      html .footer .bd-bottom-moremsg a {
+        display: block;
+        font-size: 16px;
+        color: #999999;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: left; }
+    html .footer .bd-bottom-icp {
+      font-size: 14px;
+      color: #666666;
+      line-height: 14px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/*# sourceMappingURL=nature.css.map */
