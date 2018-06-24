@@ -10,7 +10,7 @@ $(function(){
         bottom:"0"
     },1300);
     window.onscroll=function () {
-        var scrollH=document.documentElement.scrollTop + document.body.scrollTop+introH;
+        var scrollH=document.documentElement.scrollTop + document.body.scrollTop+introH-100;
         if(scrollH>introH){
             $($(".story-box")[0]).animate({
                 opacity:1,
