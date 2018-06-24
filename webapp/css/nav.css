@@ -3,17 +3,21 @@
   padding: 0; }
 
 .nav {
-  width: 100%; }
+  width: 100%;
+  background-color: #03afdd;
+  opacity: 0.9; }
   .nav .container {
     overflow: hidden; }
     .nav .container > div {
       width: 24%;
-      height: 80px;
+      height: 60px;
       float: left;
       cursor: pointer;
       border-right: 1px solid lightgray;
       transform-style: preserve-3d;
       position: relative; }
+      .nav .container > div:first-child {
+        border-left: 1px solid lightgray; }
       .nav .container > div .btn_base {
         width: 100%;
         height: 100%;
@@ -32,7 +36,7 @@
           .nav .container > div .btn_base > div h1 {
             font-family: "TrumpGothicEastBold", Arial, Helvetica, sans-serif;
             font-size: 1.4em;
-            line-height: 30px;
+            line-height: 6px;
             text-transform: uppercase;
             letter-spacing: 1px; }
           .nav .container > div .btn_base > div .block {
@@ -41,18 +45,18 @@
             height: 3px;
             background-color: #EBEBEB;
             margin-left: 1px;
-            margin-top: 4px; }
+            margin-top: 14px; }
         .nav .container > div .btn_base > div:nth-child(1) {
-          transform: rotateX(90deg) translateZ(25px);
+          transform: rotateX(90deg) translateZ(30px);
           color: #FFFFFF;
-          background-color: #c40000; }
+          background-color: #ea1817; }
         .nav .container > div .btn_base > div:nth-child(2) {
-          transform: rotateX(0deg) translateZ(25px);
+          transform: rotateX(0deg) translateZ(30px);
           color: #FFFFFF;
-          background-color: #2b2b2b; }
+          background-color: #03afdd; }
       .nav .container > div .menu-current > div:nth-child(2) {
         color: #FFFFFF;
-        background-color: #c40000; }
+        background-color: #ea1817; }
     .nav .container > div:hover .btn_base {
       transform: rotateX(-90deg); }
     .nav .container > div .menu-current {
