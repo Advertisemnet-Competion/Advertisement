@@ -1,7 +1,7 @@
 $(function () {
     for(var i=0;i<$(".box").length;i++){
         $($(".box")[i]).css({
-            backgroundImage:"url('./img/animal-"+(i+1)+".jpg')"
+            backgroundImage:"url('./img/animal-"+(i)+".jpg')"
         })
     }
 
